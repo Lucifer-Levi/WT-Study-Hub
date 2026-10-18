@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Interactive Web Technology study hub based on 25CS201 notes">
+<title>Dynamic Frontend Applications | WT Study Hub</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="app.js"></script>
+</head>
+<body data-unit="dynamic">
+<header class="topbar"><button class="menu-btn" id="menuToggle" aria-label="Toggle navigation">☰</button><a class="brand" href="index.html"><span class="brand-mark">WT</span><span>WT Study Hub</span></a><div class="top-actions"><button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">◐ <span class="theme-label">Theme</span></button></div></header>
+<div class="layout"><aside class="sidebar" id="sidebar"><div class="side-label">Study space</div><a class="nav-item " href="index.html"><span>⌂</span>Dashboard</a><a class="nav-item " href="html5.html"><span>▤</span>HTML5</a><a class="nav-item " href="core-css.html"><span>◈</span>Core CSS</a><a class="nav-item " href="advanced-css.html"><span>▦</span>Advanced CSS</a><a class="nav-item " href="javascript.html"><span>⌘</span>JavaScript</a><a class="nav-item active" href="dynamic.html"><span>✦</span>Dynamic Apps</a><div class="progress-card"><div class="progress-row"><span>Topics completed</span><strong id="progressText">0%</strong></div><div class="progress-track"><div class="progress-fill" id="progressFill"></div></div><p class="small-note">Progress is saved in this browser.</p></div></aside><main class="main" id="mainContent">
+<a class="back-link" href="index.html">← All learning units</a><div id="unitContent"></div>
+</main></div><div class="footer">Built for revision · 25CS201 Web Technology · Your progress stays on this device</div><div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
